@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#search{
+    color: grey;
+    
+}
+.header2{
+    position: fixed;
+     background-color: transparent;
+     width: 100%;
+     z-index: 100;
+    
+    }
+    
+.header2 ul {
+    display: flex;
+    list-style: none;
+    padding-left: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.header2 ul a{
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #d1d1d1;
+    }
+
+    /* first row or the first image */
+
+.iphone{
+     width: 100%;
+    height: 600px;
+    
+
+    
+    background-image: url(src/apple2.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    position: relative;
+    
+    
+
+    
+    
+
+    
+}
+
+.ihone14{
+
+    width: 400px;
+     color: #f5f5f7;
+    font-size: 30px;
+    
+    position: absolute;
+    left: 30%;
+    top: 10%;
+
+
+}
+
+/*apply common  for all botton in this website */
+
+.learn:active{
+    background-color:#0071e3;
+    
+
+}
+.learn{
+    padding: 10px;
+    border-radius: 90px;
+    background-color: #0071e3;
+    color: #f5f5f7;
+
+    width: 120px;
+    
+
+
+
+}
+.button:hover{
+    background-color: #0071e3;
+    color: #f5f5f7;
+
+    
+}
+.button{
+    border: solid 2px #0071e3;
+    padding: 10px;
+    border-radius: 90px;
+    width: 120px;
+    color: #0071e3;
+    background-color: white;
+    margin-left: 10px;
+    
+}
+
+
+/* second row */
+
+.macc{
+    width: 100%;
+    height: 600px;
+    background-color: #f5f5f7;
+    border: #0071e3 2px ;
+    position: relative;
+    margin-top: 15px;
+    
+    
+    
+}
+.macc .button1{
+    border: 1px solid white;
+    background-color: #0071e3;
+    margin:  auto;
+    width: 300px ;
+    height: 200px;
+
+    position: absolute;
+    top:10%;
+    left: 40%;
+    border-radius: 20px;
+    transform: rotate(-5deg);
+    font-size: 50px;
+    color: #f5f5f7;
+}
+.macc .i1{
+    width: 150px;
+    height:100px ;
+    position: absolute;
+    left: 59%;
+    top:7% ;
+
+
+}
+.macc .i1{
+    width: 150px;
+    height:100px ;
+    position: absolute;
+    left: 59%;
+    top: 3%;
+    
+
+}
+.macc .i2{
+    width: 150px;
+    height:100px ;
+    position: absolute;
+    left: 34%;
+    top: 40%;
+    
+
+}
+.macc .i3h{
+    width: 70px;
+    height:70px ;
+    position: absolute;
+    left: 36%;
+    top: 11%;
+    
+
+}
+.macc .i4e{
+    width: 40px;
+    height:40px ;
+    position: absolute;
+    left: 60%;
+    top: 71%;
+    z-index: 1;
+
+}
+.macc .i5a{
+    width: 90px;
+    height:90px ;
+    position: absolute;
+    left: 65%;
+    top: 56%;
+    
+
+}
+.macc .button2{
+    border: 1px solid white;
+    background-color: #0071e3;
+    margin:  auto;
+    width: 260px ;
+    height: 50px;
+
+    position: absolute;
+    top:44%;
+    left: 48%;
+    border-radius: 20px;
+    transform: rotate(1deg);
+    font-size: 20px;
+    color: #f5f5f7;
+}
+.macc .button3{
+    border: 1px solid white;
+    background-color: #0071e3;
+    margin:  auto;
+    width: 300px ;
+    height: 100px;
+
+    position: absolute;
+    top:52%;
+    left: 43%;
+    border-radius: 20px;
+    transform: rotate(5deg);
+    font-size: 39px;
+    color: #f5f5f7;
+}
+
+.macc .button4{
+    border: 1px solid white;
+    background-color: #d1d1d1;
+    margin:  auto;
+    width: 280px ;
+    height: 50px;
+
+    position: absolute;
+    top:75%;
+    left: 40%;
+    border-radius: 20px;
+    
+    font-size: 28px;
+    color: black;
+}
+
+.macc .button5{
+    border: 1px solid  #0071e3;
+    background-color: #f5f5f7;
+    margin:  auto;
+    width: 120px ;
+    height: 40px;
+
+    position: absolute;
+    top:85%;
+    left: 48%;
+    border-radius: 15px;
+    
+    font-size: 20px;
+    color:  #0071e3;
+}
+.macc .button5:hover{
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
+
+
+/* the third row that contains two columns */
+
+
+.main1{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 12px;
+
+
+}
+.main1 p{
+    
+    padding: 10px;
+    font-weight: bolder;
+
+
+}
+.ipad{
+    margin-right: 12px;
+    border: 2px white solid;
+    width: 50%;
+
+    background-color: #f5f5f7;
+    background-image: url(src/ipaddrop1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+
+}
+.subipad{
+    
+    margin: 60px 100px;
+    color: whitesmoke;
+    left: 120px;
+    
+}
+.macbook{
+    border: 2px white solid;
+    width: 50%;
+    
+    background-color: #f5f5f7;
+    background-image: url(src/macbook.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.submacbook{
+    
+    top: 40px;
+    color: #1d1d1d;
+    left: 120px;
+    margin: 60px 100px;
+
+}
+
+/* the fourth row which contians two columns */
+
+.main2{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 12px;
+
+}
+.main2 p{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.visionpro{
+    margin-right: 12px;
+    
+    width: 50%;
+    
+    background-color: #f5f5f7;
+    background-image: url(src/visiprman.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.subvisionpro{
+    
+    top: 300px;
+    color: #1d1d1d;
+    left: 120px;
+    margin: 330px 150px;
+}
+.subvisionpro p{
+    color: #181818;
+}
+.watch{
+    border: 2px white solid;
+    width: 50%;
+    
+    background-color: #f5f5f7;
+    background-image: url(src/applewatch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.subwatch{
+    
+    top: 40px;
+    color: #1d1d1d;
+    left: 40%;
+    color: black;
+    margin: 60px 100px;
+
+}
+
+/* the fifth row which contains two columns about trade and cards */
+
+.main3{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 12px;
+
+}
+.card{
+    margin-right: 12px;
+    border: 2px white solid;
+    width: 50%;
+    
+    background-color: #f5f5f7;
+    background-image: url(src/cardaple.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.subcard{
+    
+    top: 40px;
+    color: #1d1d1d;
+    left: 120px;
+    margin: 60px 100px;
+}
+.trade{
+    border: 2px white solid;
+    width: 50%;
+    
+    background-color: #f5f5f7;
+    background-image: url(src/tradeinpp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.subtrade{
+
+    top: 40px;
+    color: #1d1d1d;
+    left: 120px;
+    margin: 60px 100px;
+
+}
+
+/* first animation of images  */
+
+
+.container-img{
+    width: 90%;
+    display: grid;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    place-items: center;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+
+
+.slider-track{
+  display: flex;  
+  width: calc(800px*10);
+  animation: abuki;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+.img{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+img{
+    width: 100%;
+}
+@keyframes abuki {
+    0%{
+        transform: translateX(0);
+
+    }
+    100%{
+        transform: translateX(calc(-800px*5));
+        
+    }
+    
+}
+.img button{
+    position: absolute;
+    top: 80%;
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    
+}
+/* second animation of images */
+
+
+.container-animate{
+    width: 90%;
+    display: grid;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    place-items: center;
+    overflow: hidden;
+    margin-bottom: 40px;
+    
+    
+
+}
+
+
+
+.slidee{
+  display: flex;  
+  width: calc(400px*6);
+  animation: abukii;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+.image{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+img{
+    width: 100%;
+}
+
+
+
+@keyframes abukii {
+    0%{
+        transform: translateX(2%);
+
+    }
+    100%{
+        transform: translateX(calc(-400px*3));
+        
+    }
+    
+}
+
+.paragraph{
+    
+    border: 1px solid white;
+    padding-left: 60px;
+    background-color: #f5f5f7;
+    
+}
+.paragraph p{
+    color: #6C6C6D;
+}
+.paragraph a{
+    color: #1d1d1d;
+}
+
+/* footer section  */
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f7;
+    
+}
+.footer div a{
+    
+    color:#6C6C6D;
+
+    
+}
+.footer div{
+    padding: 10px 80px 5px 60px;
+}
+
+.footer h3{
+    color: #1d1d1d;
+    font-size: 16px;
+}
+
+.footer ul{
+    list-style: none;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #6C6C6D;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+.pp{
+    padding-left: 80px;
+}
+
+.subfooter{
+    padding: 0 80px 5px 80px;
+    background-color: #f5f5f7;
+ color:#6C6C6D;
+}
+
+
+.lastfooter a{
+    text-decoration: none;
+    color:#6C6C6D;
+}
+
+
+.lastfooter a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
